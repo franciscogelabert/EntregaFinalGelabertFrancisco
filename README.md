@@ -134,6 +134,10 @@ https://franciscogelabert.github.io/PrimerPreentregaGelabertFrancisco/
 
 ## Responsive Boostrap Git y Github
 
+![Diagrama de Funcionalidades con Boostrap](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/2-%20Diagrama%20Caso%20de%20Uso_Boost.png)
+
+
+
 ## SASS Animaciones y SEO
 
 En esta tercera entrega se pone el eje sobre los siguientes 3 temas, que se detallan a continuación:
