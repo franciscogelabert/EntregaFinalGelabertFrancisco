@@ -39,7 +39,7 @@ A continuación, en la Figura 1, se presenta un diagrama de Casos de uso simplif
 | 04. Buscar Publicaciones | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/4-1%20Buscar%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/4-2%20Buscar%20Mobile.png) |Permite la búsqueda de publicaciones en el portal de Foodier.|
 | 05. Publicar | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/5-1%20Publicar%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/5-2%20Publicar%20Mobile.png) |Permite agregar una nueva publicación.|
 
-## HTML CSS y Boxmodeling
+##  HTML CSS y Boxmodeling
 
 ### Archivos HTML y CSS
 
@@ -54,6 +54,10 @@ publicar.html: 05. Publicar
    
 ```
 
+
+![Diagrama de archivos HTML](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/1-%20Diagrama%20Caso%20de%20Uso_html.png)
+
+
 A continuación se mencionan algunos de los sitios con utilizades para el desarrollo de la Página:
 
 | Descipción | URL |
@@ -64,10 +68,25 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Paleta de colores  |  https://color.adobe.com |
 | Iconos  | https://tabler-icons.io/  |
 | Patrones fondos | https://www.toptal.com/designers/subtlepatterns/ |
+| Generador texto | https://www.lipsum.com/ |
+| Referencia desarrollo | https://www.w3schools.com/  y https://developer.mozilla.org/es/|
+| Test CSS y HTML | https://codepen.io/emanuel-d-rodriguez-bejarano/pen/mQNKer |
+| Imágenes | https://www.freepik.com/ |
 
 
-![Diagrama de archivos HTML](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/1-%20Diagrama%20Caso%20de%20Uso_html.png)
+Debajo se detallan los links para acceder a la Primera etapa del desarrollo: 
 
+```bash
+
+Github: 
+
+https://github.com/franciscogelabert/PrimerPreentregaGelabertFrancisco
+
+Deploy: 
+
+https://franciscogelabert.github.io/PrimerPreentregaGelabertFrancisco/
+
+```
 
 ## Responsive Boostrap Git y Github
 
