@@ -76,6 +76,31 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Diagramas | https://www.diagrams.net/ |
 
 
+
+Para Boxmodeling se generaron diferentes contenedores para los diferentes elementos de la página,
+
+debajo se presentan uno para contener una Receta y otro para contener un formulario: 
+
+```bash
+
+.contenedorReceta {
+    height: auto;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+.contenedorForm {
+    height: auto;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+```
+
+
 Debajo se detallan los links para acceder a la **Primera etapa del desarrollo**: 
 
 ```bash
