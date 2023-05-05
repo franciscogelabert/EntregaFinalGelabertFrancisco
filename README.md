@@ -88,6 +88,9 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Imágenes | https://www.freepik.com/ |
 | Wireframes | https://balsamiq.com/ |
 | Diagramas | https://www.diagrams.net/ |
+| Markdown | https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-markdown/ |
+
+
 
 
 
