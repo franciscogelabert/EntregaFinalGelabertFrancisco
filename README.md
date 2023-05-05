@@ -33,7 +33,7 @@ A continuación, en la Figura 1, se presenta un diagrama de Casos de uso simplif
 
 | Nombre | Wireframe | Description |
 | --- | :---: | --- |
-| 01- Home | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/1-1%20Home%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/1-2%20Home%20Mobile.png) | Presenta un menú desde el cual se puede acceder al contenido publicado por los contenidistas de la Página, a las diferentes funcionalidades para el login o registro de usuarios, consultar info de mi perfil, buscar publicaciones y publicar.  |
+| 01- Home | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/1-1%20Home%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/1-2%20Home%20Mobile.png) | Presenta una pantalla desde el cual se puede acceder al contenido publicado por los contenidistas de la Página, a las diferentes funcionalidades para el login o registro de usuarios, consultar info de mi perfil, buscar publicaciones y publicar.  |
 | 02. Ingresar/Registrar Usuario | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/2-1%20Registrar%20Usuario%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/2-2%20Registrar%20Usuario%20Mobile.png) |Permite el ingreso de un usuario existente y/o el registro de un nuevo usuario. Una vez autenticado se habilitan nuevos permisos, como ser por ejemplo publicar y gestionar publicaciones.|
 | 03. Visitar Perfil | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/3-%201%20Visitar%20Perfil%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/3-2%20Visitar%20Perfil%20Mobile.png) | Mediante esta funcionalidad se puede acceder a gestionar las publicaciones ya realizadas y a publicar nuevas.|
 | 04. Buscar Publicaciones | [Desktop](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/4-1%20Buscar%20Desktop.png) / [Mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/wireframes/4-2%20Buscar%20Mobile.png) |Permite la búsqueda de publicaciones en el portal de Foodier.|
@@ -41,20 +41,16 @@ A continuación, en la Figura 1, se presenta un diagrama de Casos de uso simplif
 
 ## HTML CSS y Boxmodeling
 
-### Archivos 
+### Archivos HTML y CSS
 
 ```bash
 
-Para trabajar con SASS se crearon 8 archivos SCSS:
-
-_animate: para cargar todo lo relacionado a las animaciones
-_commons: para todo el código común a todas las páginas
-_footer: para todo lo relacionado al footer
-_media: codigo para todo lo relacionado a los media query y Grid 
-_mixin: código para la reutilización de las clases.
-_nav:  para todo lo relacionado a la nav.
-_vars: para administrar las variables globales que se van a utilizar.
-boost: para ordenar e incluir todos los SCSS
+style.css: como hoja de estilo
+index.html: para funcionalidad 01- Home
+buscar.html: para funcionalidad 04. Buscar Publicaciones
+ingresar.html: para funcionalidad 02. Ingresar/Registrar Usuario
+visistarpefil.html: 03. Visitar Perfil 
+publicar.html: 05. Publicar
    
 ```
 
