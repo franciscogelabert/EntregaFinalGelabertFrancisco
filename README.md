@@ -54,6 +54,18 @@ publicar.html: 05. Publicar
    
 ```
 
+A continuación se mencionan algunos de los sitios con utilizades para el desarrollo de la Página:
+
+| Descipción | URL |
+| --- | --- |
+| Fuentes  | https://fonts.google.com/ |
+| Logo   |  https://es.freelogodesign.org/manager |
+| Favicon | https://favicon.io/  |
+| Paleta de colores  |  https://color.adobe.com |
+| Iconos  | https://tabler-icons.io/  |
+| Patrones fondos | https://www.toptal.com/designers/subtlepatterns/ |
+
+
 ![Diagrama de archivos HTML](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/1-%20Diagrama%20Caso%20de%20Uso_html.png)
 
 
