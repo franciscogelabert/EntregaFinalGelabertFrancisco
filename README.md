@@ -4,7 +4,19 @@
 
 ## 01- Deploy 
 
-https://franciscogelabert.github.io/EntregaFinalGelabertFrancisco/
+**Github**
+
+https://franciscogelabert.github.io/EntregaFinalGelabertFrancisco/ 
+
+
+**Vercel**
+
+Deployment: https://entrega-final-gelabert-francisco-g7p39u2xn-franciscogelabert.vercel.app/
+
+Domains:  https://entrega-final-gelabert-francisco.vercel.app/
+   
+
+
 
 
 ## 02- Descripción General 
