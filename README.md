@@ -72,9 +72,11 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Referencia desarrollo | https://www.w3schools.com/  y https://developer.mozilla.org/es/|
 | Test CSS y HTML | https://codepen.io/emanuel-d-rodriguez-bejarano/pen/mQNKer |
 | Imágenes | https://www.freepik.com/ |
+| Wireframes | https://balsamiq.com/ |
+| Diagramas | https://www.diagrams.net/ |
 
 
-Debajo se detallan los links para acceder a la Primera etapa del desarrollo: 
+Debajo se detallan los links para acceder a la **Primera etapa del desarrollo**: 
 
 ```bash
 
