@@ -124,6 +124,9 @@ Tomando como referencia todo lo visto en el curso y la guía de  [Boostrap v5.3]
 
 En primera instancia se redefine el archivo de estilos y se genera el archivo boost.css. Luego se procede a aplicar boostrap a todos los archivos, debajo se presenatn algunos ejemplos: 
 
+![Diagrama Boostrap](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/2-%20Diagrama%20Caso%20de%20Uso_Boost.png
+)
+
 Se genera un **Footer** para mobile de forma tal que solo presente los accesos necesarios:
 
 ![footer mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/CapturaFooter.PNG)
