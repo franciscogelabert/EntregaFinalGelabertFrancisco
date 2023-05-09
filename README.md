@@ -2,7 +2,7 @@
 
 *Entrega Final - Gelabert Francisco - Comisión 52150 Coderhouse*
 
-## 01- Deploy 
+## 01- Deploy Final
 
 **Github**
 
@@ -14,11 +14,6 @@ https://franciscogelabert.github.io/EntregaFinalGelabertFrancisco/
 Domains:  https://entrega-final-gelabert-francisco.vercel.app/
 
 Deployment: https://entrega-final-gelabert-francisco-r9lvpnvom-franciscogelabert.vercel.app/
-
-
-   
-
-
 
 
 ## 02- Descripción General 
@@ -68,7 +63,6 @@ publicar.html: 05. Publicar
    
 ```
 
-
 ![Diagrama de archivos HTML](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/1-%20Diagrama%20Caso%20de%20Uso_html.png)
 
 
@@ -89,9 +83,6 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Wireframes | https://balsamiq.com/ |
 | Diagramas | https://www.diagrams.net/ |
 | Markdown | https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-markdown/ |
-
-
-
 
 
 Para Boxmodeling se generaron diferentes contenedores para los diferentes elementos de la página,
@@ -134,8 +125,39 @@ https://franciscogelabert.github.io/PrimerPreentregaGelabertFrancisco/
 
 ## Responsive Boostrap Git y Github
 
-![Diagrama de Funcionalidades con Boostrap](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/2-%20Diagrama%20Caso%20de%20Uso_Boost.png)
+Se dejan dos versiones de la pantalla "visitar perfil", una que logra el comportamiento resposive con Boostrap (visistarpefil.html)y la otra con Grid visistarpefilGrid.html. Para acceder a la versión GRID de visitar perfil utilizar los accesos de la NAV/Header y para acceder a la versión Boostrap utilizar el acceso a Visitar perfil que se presenta en el footer en modo mobile.
 
+Tomando como referencia todo lo visto en el curso y la guía de  [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), se procede a aplicar dicha tecnología a todos los archivos, atendiendo a generar una interfaz responsive mobile first. 
+
+En primera instancia se redefine el archivo de estilos y se genera el archivo boost.css. Luego se procede a aplicar boostrap a todos los archivos, debajo se presenatn algunos ejemplos: 
+
+Se genera un **Footer** para mobile de forma tal que solo presente los accesos necesarios:
+
+![footer mobile](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/CapturaFooter.PNG)
+
+y los accesos que se se presentan en los otros breackpoints se apregan dentro de la **NAV** colapsable: 
+
+![Nav con accesos del footer](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/CapturaNav.PNG)
+
+
+Se reformula la fotrma en la que se presentan los **artículos**:  
+
+
+```bash
+
+<div class="contenedorReceta">   ......  </div>
+
+```
+
+a su versión en boostrap:
+
+```bash
+
+<article class="col-sm-12 col-md-6 col-lg-3 mt-3">
+     <div class="card gradiente"> ....... </div>
+</article>
+
+```
 
 
 ## SASS Animaciones y SEO
@@ -545,11 +567,4 @@ El mismo se genera con la página [www.xml-sitemaps.com](https://www.xml-sitemap
 ### 2-4-Página404
 
 Se desarrollo una [página 404](https://franciscogelabert.github.io/PreEntrega3GelabertFrancisco/pages/404.html) que se presente cuando se accede a algún link que no posee HTML asociado.
-
-
-## 3.Detalles a tener en cuenta en esta entrega.
-
-Al igual que en la entrega anterior se dejan dos versiones de pa pantalla "visitar perfil", una que logra el comportamiento resposive con Boostrap y la otra con Grid.
-Para acceder a la versión GRID de visitar perfil utilizar los accesos de la NAV/Header 
-y para acceder a la versión Boostrap utilizar el acceso a Visitar perfil que se presenta en el footer en modo mobile.
 
