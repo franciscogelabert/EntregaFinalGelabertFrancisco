@@ -111,17 +111,10 @@ debajo se presentan uno para contener una Receta y otro para contener un formula
 
 Debajo se detallan los links para acceder a la **Primera etapa del desarrollo**: 
 
-```bash
+**Github:**  https://github.com/franciscogelabert/PrimerPreentregaGelabertFrancisco
 
-Github: 
+**Deploy:**  https://franciscogelabert.github.io/PrimerPreentregaGelabertFrancisco/
 
-https://github.com/franciscogelabert/PrimerPreentregaGelabertFrancisco
-
-Deploy: 
-
-https://franciscogelabert.github.io/PrimerPreentregaGelabertFrancisco/
-
-```
 
 ## Responsive Boostrap Git y Github
 
@@ -158,6 +151,12 @@ a su versión en boostrap:
 </article>
 
 ```
+
+Debajo se detallan los links para acceder a la **Segunda etapa del desarrollo**: 
+
+**Github:** https://github.com/franciscogelabert/PreEntrega2GelabertFrancisco
+
+**Deploy:** https://franciscogelabert.github.io/PreEntrega2GelabertFrancisco/index.html
 
 
 ## SASS Animaciones y SEO
@@ -567,4 +566,14 @@ El mismo se genera con la página [www.xml-sitemaps.com](https://www.xml-sitemap
 ### 2-4-Página404
 
 Se desarrollo una [página 404](https://franciscogelabert.github.io/PreEntrega3GelabertFrancisco/pages/404.html) que se presente cuando se accede a algún link que no posee HTML asociado.
+
+Debajo se detallan los links para acceder a la **Tercera etapa del desarrollo**: 
+
+**Github:** https://github.com/franciscogelabert/PreEntrega3GelabertFrancisco
+
+**Deploy:** https://franciscogelabert.github.io/PreEntrega3GelabertFrancisco/index.html
+
+
+
+
 
