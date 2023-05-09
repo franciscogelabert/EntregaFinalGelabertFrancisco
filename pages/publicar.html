@@ -100,10 +100,10 @@
 		<div class="row">
 			<div class="mx-auto col-10 col-md-8 col-lg-6">
 				<form>
-					<div class="mb-3 mt-3">
+					<div class="col-sm-10 mb-3 mt-3">
 						<input class="form-control fs-5" type="file" id="formFileMultiple" multiple>
 					</div>
-					<div id="carouselExampleIndicators" class="carousel slide mt-3">
+					<div id="carouselExampleIndicators" class="carousel slide col-sm-10 mt-3">
 						<div class="carousel-indicators">
 							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
 								class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -140,7 +140,7 @@
 							<span class="visually-hidden">Next</span>
 						</button>
 					</div>
-					<div class="d-flex justify-content-end mt-2">
+					<div class="d-flex justify-content-end  col-sm-10 mt-2">
 
 						<a href="404.html" Title="Previsualizar">
 							<svg xmlns="http://www.w3.org/2000/svg"
@@ -192,25 +192,27 @@
 					</div>
 
 					<div class="form-group mb-3 mt-3">
-						<label for="descripcionDetallada" class="col-form-label fs-5">Descripción Detallada:</label>
+						<label for="descripcionDetallada" class="col-sm-6 col-form-label fs-5">Descripción Detallada:</label>
+						<div class="col-sm-10">
 						<textarea class="form-control" id="descripcionDetallada" rows="3"></textarea>
+					   </div>
 					</div>
 					<div class="form-group mb-5 mt-3">
-						<label for="descripcionDetallada" class="col-form-label fs-5">Tipo Publicación:</label>
+						<label for="descripcionDetallada" class="col-sm-6 col-form-label fs-5">Tipo Publicación:</label>
+						<div class="col-sm-10">
 						<select class="form-select" aria-label="Default select example">
 							<option selected>Seleccione uno ...</option>
 							<option value="receta">Receta</option>
 							<option value="local">Local de Comida</option>
 						</select>
+						</div>
 					</div>
-
-					<div class="d-flex mt-2 mb-2">
+					
+					<div class="d-flex justify-content-end col-sm-10">
 						<button type="submit" class="button"> Publicar </button>
 						<button type="reset" class="button"> Cancelar </button>
 					</div>
-
 				</form>
-
 			</div>
 		</div>
 
