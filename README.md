@@ -13,7 +13,7 @@ https://franciscogelabert.github.io/EntregaFinalGelabertFrancisco/
 
 Domains:  https://entrega-final-gelabert-francisco.vercel.app/
 
-Deployment: https://entrega-final-gelabert-francisco-icu2mf2w0-franciscogelabert.vercel.app
+Deployment: https://entrega-final-gelabert-francisco-lb5zsi9ml-franciscogelabert.vercel.app/
 
 
 ## 02- Descripción General 
