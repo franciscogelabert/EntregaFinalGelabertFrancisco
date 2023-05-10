@@ -209,7 +209,16 @@
 					</div>
 					
 					<div class="d-flex justify-content-end col-sm-10">
-						<button type="submit" class="button"> Publicar </button>
+						<button id="publicar" type="submit" class="button"> Publicar </button>
+						<script>
+							function abrirNuevoTab(url) {
+							  // Abrir nuevo tab
+							  var win = window.open(url);
+							  					}
+							$('#publicar').click(function(){
+							  abrirNuevoTab('404.html')
+							})
+						  </script>
 						<button type="reset" class="button"> Cancelar </button>
 					</div>
 				</form>
