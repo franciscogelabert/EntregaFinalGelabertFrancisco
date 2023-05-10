@@ -16,14 +16,20 @@ Domains:  https://entrega-final-gelabert-francisco.vercel.app/
 Deployment: https://entrega-final-gelabert-francisco-lb5zsi9ml-franciscogelabert.vercel.app/
 
 
-## 02- Descripción General 
+## 02- Descripción entrega Final 
+
+La siguiente entrega agrupa todos los conceptos vistos en el curso de **Desarrollo Web**, desde los wireframes hasta el deploy en un servidor externo.
+En el punto uno se puede acceder al Deploy de la entrega Final y debajo se puede acceder a las entregas incrementales intermedias, donde se puede observar como fué evolucionando la solución. 
+
+![Etapas Desarrollo Web](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/EntregaFinalDesarrolloWeb.drawio.png)
+
+
+## 03- Funcionalidades generales del Sistema.
 
 El objetivo de Foodier es brindarle a un usuario la posibilidad de publicar y organizar publicaciones relacionadas a recetas de comidas y experiencias en negocios gastronómicos.
 Permitiéndoles acceder a las recetas que más le gustaron a los usuarios (♥️), a listados de recetas de autores específicos (@) y a recetas que contengan temas particulares (#).
 
-## 03- Funcionalidades generales del Sistema.
-
-A continuación, en la Figura 1, se presenta un diagrama de Casos de uso simplificado y un detalle con la descripción de los mismos a trazo grueso.
+A continuación, se presenta un diagrama de Casos de uso simplificado y un detalle con la descripción de los mismos a trazo grueso.
 
 
 ![Diagrama de Funcionalidades](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/0%20-%20Diagrama%20Foodier.png)
@@ -108,6 +114,7 @@ debajo se presentan uno para contener una Receta y otro para contener un formula
 
 ```
 
+## Primera Preentrega
 
 Debajo se detallan los links para acceder a la **Primera etapa del desarrollo**: 
 
@@ -118,7 +125,7 @@ Debajo se detallan los links para acceder a la **Primera etapa del desarrollo**:
 
 ## Responsive Boostrap Git y Github
 
-Se dejan dos versiones de la pantalla "visitar perfil", una que logra el comportamiento resposive con Boostrap (visistarpefil.html)y la otra con Grid visistarpefilGrid.html. Para acceder a la versión GRID de visitar perfil utilizar los accesos de la NAV/Header y para acceder a la versión Boostrap utilizar el acceso a Visitar perfil que se presenta en el footer en modo mobile.
+Se dejan dos versiones de la pantalla "visitar perfil", una que logra el comportamiento resposive con Boostrap (visistarpefil.html) y la otra con Grid visistarpefilGrid.html. Para acceder a la versión GRID de visitar perfil utilizar los accesos de la NAV/Header y para acceder a la versión Boostrap utilizar el acceso a Visitar perfil que se presenta en el footer en modo mobile.
 
 Tomando como referencia todo lo visto en el curso y la guía de  [Boostrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), se procede a aplicar dicha tecnología a todos los archivos, atendiendo a generar una interfaz responsive mobile first. 
 
@@ -154,6 +161,8 @@ a su versión en boostrap:
 </article>
 
 ```
+
+## Segunda Preentrega
 
 Debajo se detallan los links para acceder a la **Segunda etapa del desarrollo**: 
 
@@ -566,11 +575,13 @@ Solo a los efectos de probar su utilización se genera y carga el archivo [sitem
 El mismo se genera con la página [www.xml-sitemaps.com](https://www.xml-sitemaps.com)
 
 
-### 2-4-Página404
+### 2-4-Página 404
 
 Se desarrollo una [página 404](https://franciscogelabert.github.io/PreEntrega3GelabertFrancisco/pages/404.html) que se presente cuando se accede a algún link que no posee HTML asociado.
 
 Debajo se detallan los links para acceder a la **Tercera etapa del desarrollo**: 
+
+## Tercera Preentrega
 
 **Github:** https://github.com/franciscogelabert/PreEntrega3GelabertFrancisco
 
