@@ -13,13 +13,14 @@ https://franciscogelabert.github.io/EntregaFinalGelabertFrancisco/
 
 Domains:  https://entrega-final-gelabert-francisco.vercel.app/
 
-Deployment: https://entrega-final-gelabert-francisco-lb5zsi9ml-franciscogelabert.vercel.app/
+Deployment: https://vercel.com/franciscogelabert/entrega-final-gelabert-francisco/J9f5Ns2En78fE4BWRP4QVPEucToy
 
 
 ## 02- Descripción entrega Final 
 
-La siguiente entrega agrupa todos los conceptos vistos en el curso de **Desarrollo Web**, desde los wireframes hasta el deploy en un servidor externo.
-En el punto uno se puede acceder al Deploy de la entrega Final y debajo se puede acceder a las entregas incrementales intermedias, donde se puede observar como fué evolucionando la solución. 
+La siguiente entrega agrupa todos los conceptos vistos en el curso de **Desarrollo Web**, desde la creación de los wireframes hasta el deploy en un servidor externo. ([Vercel](https://vercel.com/login?next=%2Fdashboard))
+
+En el punto **01** se puede acceder al Deploy de la entrega Final y debajo se puede acceder a las entregas incrementales intermedias, donde se puede observar como fué evolucionando la solución. 
 
 ![Etapas Desarrollo Web](https://github.com/franciscogelabert/EntregaFinalGelabertFrancisco/blob/master/docs/EntregaFinalDesarrolloWeb.drawio.png)
 
@@ -90,6 +91,7 @@ A continuación se mencionan algunos de los sitios con utilizades para el desarr
 | Diagramas | https://www.diagrams.net/ |
 | Markdown | https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-markdown/ |
 
+### Boxmodeling
 
 Para Boxmodeling se generaron diferentes contenedores para los diferentes elementos de la página,
 
