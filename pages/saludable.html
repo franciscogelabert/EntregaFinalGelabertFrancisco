@@ -1,17 +1,18 @@
+<!-- visitarperfilGrid.html (realizado con Boostrap)y visitarperfilGrid.html (realizado con Grid) tienen las mismas funcionalidades e igual contenido y comportamiento, dichas pantallas se encuentran replicadas solo a los efectos de poder mostrar el uso de las diferentes técnicas solicitadas en la consigna -->
+
 <!doctype html>
 <html lang="es">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<title>Publicar | Foodier comencemos a buscar algo bien rico.</title>
+	<title>Mi Perfil | Foodier comencemos a buscar algo bien rico.</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/boost.css">
 	<link rel="icon" href="../img/ico/favicon.ico">
 	<meta name="description"
-		content="Armá tu libro de receta y te invitamos a compartir y aprender nuevas ideas y sabores.">
+		content="Mi libro de recetas, recetas de un chef con ganas de compartir nuevas ideas y sabores.">
 	<meta name="author" content="Francisco Gelabert">
 	<meta name="keywords" content="red social de recetas, recetas, comida, chef, restaurant, cocinera, cocinero">
 	<meta name="copyright" content="Foodier S.A. 2023">
@@ -21,7 +22,7 @@
 
 <body>
 	<!-- Nav Start -->
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand-lg ">
 		<!-- flex-column -->
 		<div class="container-fluid">
 			<a class="navbar-brand rotate" href="../index.html" target="_blank">
@@ -53,8 +54,8 @@
 						<a class="nav-link active text-white fs-5" aria-current="page" href="publicar.html">Publicar</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active text-white fs-5" aria-current="page" href="saludable.html">Vida Saludable</a>
-					 </li>
+						<a class="nav-link active text-white fs-5" aria-current="page" href="#">Vida Saludable</a>
+					  </li>
 					<div class="d-block d-sm-block d-md-none">
 						<li class="nav-item">
 							<a class="nav-link active text-white fs-5" aria-current="page" href="404.html">¿Quienes
@@ -76,160 +77,159 @@
 				</ul>
 				<form class="d-flex flex-column" role="search">
 					<input class="form-control" type="search" placeholder="Buscar algo Foodie..." aria-label="search">
-					<a class="urlfondooscuro" href="buscar.html"> 
-							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-								<path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
-								<path d="M21 21l-6 -6"></path>
-							 </svg> Búsqueda avanzada</a>
+					<a class="urlfondooscuro" href="buscar.html">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24"
+							height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+							stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+							<path d="M21 21l-6 -6"></path>
+						</svg> Búsqueda avanzada</a>
 				</form>
 			</div>
 		</div>
 	</nav>
 	<!-- End Nav -->
+
 	<header class="d-none d-sm-none d-md-block">
 		<div class="card text-bg-dark">
 			<img src="../img/header/hpublicar.PNG" class="object-fit w-100"
-				alt="Encabezado que muestra diferentes ingredientes como se porotos, tomates, avena entre otros.">
+				alt="Encabezado que muestra a dos cucharas con pimienta.">
 			<div class="card-img-overlay">
 				<a class="nav-link active text-white fs-5" aria-current="page" href="visitarperfilGrid.html">
 					<img src="../img/content/perfil.jpg" class="img-thumbnail circle" alt="Foto de Perfil"></a>
 			</div>
 		</div>
 	</header>
-
 	<main>
 		<!-- Form para Publicar -->
-		<h1>Publicar una receta foodie...</h1>
+		<h1>Vida Saludable</h1>
+		<h2>Análisis alimenticio de tu receta</h2>
 		<div class="row">
 			<div class="mx-auto col-10 col-md-8 col-lg-6">
-				<form>
-					<div class="col-sm-10 mb-3 mt-3">
-						<input class="form-control fs-5" type="file" id="formFileMultiple" multiple>
-					</div>
-					<div id="carouselExampleIndicators" class="carousel slide col-sm-10 mt-3">
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-								class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-								aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-								aria-label="Slide 3"></button>
-						</div>
+				<p> A continuación te proporcionamos una funcionalidad mediante la cual, podés ingresar todos los
+					ingredientes de tu receta.
+					Nosotros nos ocupamos de calcular sus totales en calorías, sodio y grasas.
+					Atento a esta información, también te queremos contar cuan saludable es en relación los criterios de
+					alimentación actuales.</p>
 
-						<div class="carousel-inner">
-							<div class="carousel-item active ">
-								<img src="../img/content/pEmpanadas.PNG"
-									class="object-fit-contain border rounded d-block w-100"
-									alt="Fuente con empanadas y salsa de queso">
-							</div>
-							<div class="carousel-item object-fit-contain border rounded">
-								<img src="../img/content/pEmpanadas2.PNG"
-									class="object-fit-contain border rounded d-block w-100"
-									alt="Cantidades para la Receta">
-							</div>
-							<div class="carousel-item object-fit-contain border rounded">
-								<img src="../img/content/pEmpanadas3.PNG"
-									class="object-fit-contain border rounded d-block w-100" alt="Método de preparación">
-							</div>
-						</div>
-						<button class="carousel-control-prev carousel-control-icon" type="button"
-							data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next carousel-control-icon" type="button"
-							data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-					<div class="d-flex justify-content-end  col-sm-10 mt-2">
-
-						<a href="404.html" Title="Previsualizar">
-							<svg xmlns="http://www.w3.org/2000/svg"
-								class="icon icon-tabler icon-tabler-eye smallimagebox colorView" stroke-width="2"
-								stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-								<path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
-								<path
-									d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6">
-								</path>
-							</svg>
-						</a>
-						<a href="404.html" Title="Editar">
-							<svg xmlns="http://www.w3.org/2000/svg"
-								class="icon icon-tabler icon-tabler-edit smallimagebox colorEdit" stroke-width="2"
-								stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-								<path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"></path>
-								<path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z"></path>
-								<path d="M16 5l3 3"></path>
-							</svg>
-						</a>
-						<a href="404.html" Title="Eliminar">
-							<svg xmlns="http://www.w3.org/2000/svg"
-								class="icon icon-tabler icon-tabler-trash smallimagebox colorDelete" stroke-width="2"
-								stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-								<path d="M4 7l16 0"></path>
-								<path d="M10 11l0 6"></path>
-								<path d="M14 11l0 6"></path>
-								<path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"></path>
-								<path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"></path>
-							</svg>
-						</a>
-					</div>
-
+				<h3>Paso 1. Ingrese los datos de su receta</h3>
+				<form id="freceta">
 					<div class="form-group mb-3 mt-3">
-						<label for="descripcion" class="col-sm-6 col-form-label fs-5">Descripción breve:</label>
+						<label for="nombreReceta" class="col-sm-6 col-form-label fs-5">Nombre Receta: </label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="descripcion">
+							<input type="text" class="form-control" id="nombreReceta">
 						</div>
 					</div>
-
 					<div class="form-group mb-3 mt-3">
-						<label for="ubicacion" class="col-sm-6 col-form-label fs-5">Ubicación:</label>
+						<label for="origen" class="col-sm-6 col-form-label fs-5">País orígen:</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="ubicacion">
+							<input type="text" class="form-control" id="origen">
 						</div>
-					</div>
-
-					<div class="form-group mb-3 mt-3">
-						<label for="descripcionDetallada" class="col-sm-6 col-form-label fs-5">Descripción Detallada:</label>
-						<div class="col-sm-10">
-						<textarea class="form-control" id="descripcionDetallada" rows="3"></textarea>
-					   </div>
-					</div>
-					<div class="form-group mb-5 mt-3">
-						<label for="descripcionDetallada" class="col-sm-6 col-form-label fs-5">Tipo Publicación:</label>
-						<div class="col-sm-10">
-						<select class="form-select" aria-label="Default select example">
-							<option selected>Seleccione uno ...</option>
-							<option value="receta">Receta</option>
-							<option value="local">Local de Comida</option>
-						</select>
-						</div>
-					</div>
-					
-					<div class="d-flex justify-content-end col-sm-10">
-					     <button id="publicar" type="submit" class="button">Publicar </button>
-						<script>
-							function abrirNuevoTab(url) {
-							  // Abrir nuevo tab
-							  var win = window.open(url);
-						 					}
-							$('#publicar').click(function(){
-							  abrirNuevoTab('404.html')
-							})
-						  </script>
-					     <button type="reset" class="button"> Cancelar </button>
 					</div>
 				</form>
-			</div>
-		</div>
 
+				<h3> Paso 2. Ingrese los Ingredientes de su receta</h3>
+				<form id="fingredientes">
+
+					<div class="form-group mb-3 mt-3">
+						<label for="ingrediente" class="col-sm-6 col-form-label fs-5">Ingrediente:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="ingrediente">
+						</div>
+					</div>
+
+					<div class="form-group mb-3 mt-3">
+						<label for="precio" class="col-sm-6 col-form-label fs-5">Precio: ($ cada 100 gr)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="precio">
+						</div>
+					</div>
+
+					<div class="form-group mb-3 mt-3">
+						<label for="cantidad" class="col-sm-6 col-form-label fs-5">Cantidad: (en gramos)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="cantidad">
+						</div>
+					</div>
+
+					<div class="form-group mb-3 mt-3">
+						<label for="calorias" class="col-sm-6 col-form-label fs-5">Calorías: (cada 100 gr)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="calorias">
+						</div>
+					</div>
+
+					<div class="form-group mb-3 mt-3">
+						<label for="sodio" class="col-sm-6 col-form-label fs-5">Sodio: (cada 100 gr)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="sodio">
+						</div>
+					</div>
+					<div class="form-group mb-3 mt-3">
+						<label for="grasas" class="col-sm-6 col-form-label fs-5">Grasas: (cada 100 gr)</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="grasas">
+						</div>
+					</div>
+
+				</form>
+				<div id="h3ing" style="color:red;">
+
+				</div>
+				<div class="d-flex justify-content-end col-sm-10">
+					<button id="publicar" type="submit" class="button">Agregar </button>
+				</div>
+
+				<!-- Div food table -->
+				<h3>Paso 3. Verifique los datos y presione Finalizar para ver el Reporte</h3>
+				<div class="bg-light">
+					<h4>Tabla de Ingredientes: </h4>
+					<div class="table-responsive">
+						<div class="bg-light">
+							<div class="table-responsive">
+								<table class="table table-striped-columns table-hover mb-3">
+									<thead>
+										<tr>
+											<th>Ingrediente</th>
+											<th>Precio</th>
+											<th>Cantidad</th>
+											<th>Calorías</th>
+											<th>Sodio</th>
+											<th>Grasas saturadas</th>
+											<th></th>
+										</tr>
+									</thead>
+									<tbody id="tablaAlimentos">
+
+									</tbody>
+								</table>
+							</div>
+							<div class="d-flex justify-content-end col-sm-10">
+								<button id="btnTotales" class="button">Calcular </button>
+							</div>
+						</div><!-- End Div food table -->
+
+						<!-- Div Reporte-->
+						<h3>Reporte Alimenticio</h3>
+						<div class="bg-light">
+							<div class="table-responsive">
+								<table class="table table-striped-columns table-hover mb-3">
+									<thead id="totalesHead">
+									</thead>
+									<tbody id="totalesValores">
+
+									</tbody>
+								</table>
+							</div>
+						</div><!-- End Div reporte -->
+						<div class="d-flex justify-content-end col-sm-10">
+							<button id="recarga" class="button">Nuevo Reporte </button>
+						</div>
+					</div>
+				</div>
 	</main>
+	<!-- Footer tener en cuenta que presenta diferentes formatos dependiendo la resolución -->
 	<!-- Footer tener en cuenta que presenta diferentes formatos dependiendo la resolución -->
 	<footer>
 		<div class="d-none d-sm-none d-md-block footOne">
@@ -281,12 +281,17 @@
 				<img class="smallimagebox" src="../img/content/perfil.jpg" alt="Imágen para acceder a  mi Perfil">
 			</a>
 
+
 		</div>
 	</footer>
+	<script src="/js/wow.min.js"></script>
+	<script src="/js/Alimento.js"></script>
+	<script src="/js/Receta.js"></script>
+	<script src="/js/app.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
 		crossorigin="anonymous"></script>
-	<script src="js/wow.min.js"></script>
+
 
 </body>
 
